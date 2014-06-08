@@ -31,9 +31,6 @@
 [submodule "bundle/vim-protobuf"]
 	path = bundle/vim-protobuf
 	url = https://github.com/qqshfox/vim-protobuf.git
-[submodule "bundle/vim-rebar"]
-	path = bundle/vim-rebar
-	url = https://github.com/mbbx6spp/vim-rebar.git
 [submodule "bundle/AutoTag"]
 	path = bundle/AutoTag
 	url = https://github.com/vim-scripts/AutoTag.git
@@ -46,9 +43,6 @@
 [submodule "bundle/current-func-info.vim"]
 	path = bundle/current-func-info.vim
 	url = https://github.com/tyru/current-func-info.vim.git
-[submodule "bundle/vim-virtualenv"]
-	path = bundle/vim-virtualenv
-	url = https://github.com/jmcantrell/vim-virtualenv.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -115,9 +109,6 @@
 [submodule "bundle/inkpot"]
 	path = bundle/inkpot
 	url = https://github.com/qqshfox/inkpot.git
-[submodule "bundle/vimerl"]
-	path = bundle/vimerl
-	url = https://github.com/jimenezrick/vimerl.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git

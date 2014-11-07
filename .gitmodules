@@ -25,9 +25,6 @@
 [submodule "bundle/gitolite.vim"]
 	path = bundle/gitolite.vim
 	url = https://github.com/tmatilai/gitolite.vim.git
-[submodule "bundle/vim-rvm"]
-	path = bundle/vim-rvm
-	url = https://github.com/tpope/vim-rvm.git
 [submodule "bundle/vim-protobuf"]
 	path = bundle/vim-protobuf
 	url = https://github.com/qqshfox/vim-protobuf.git
@@ -103,9 +100,6 @@
 [submodule "bundle/tabman.vim"]
 	path = bundle/tabman.vim
 	url = https://github.com/kien/tabman.vim.git
-[submodule "bundle/python.vim"]
-	path = bundle/python.vim
-	url = https://github.com/vim-scripts/python.vim--Vasiliev.git
 [submodule "bundle/inkpot"]
 	path = bundle/inkpot
 	url = https://github.com/qqshfox/inkpot.git

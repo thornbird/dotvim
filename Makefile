@@ -28,7 +28,6 @@ YouCompleteMe:
 update: update_submodules command-t update_taghightlight YouCompleteMe
 
 install: all
-	ln -sf ${current_path} ~/.vim
 	ln -sf ~/.vim/vimrc ~/.vimrc
 
 clean_taghighlight:

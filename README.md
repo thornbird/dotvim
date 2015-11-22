@@ -1,5 +1,6 @@
 dotvim files
 ==========================
+This is clone from (Hanfei Shen's dotvim)[https://github.com/qqshfox/dotvim]
 
 Installation
 ------------

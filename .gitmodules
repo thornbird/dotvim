@@ -118,9 +118,6 @@
 [submodule "bundle/xterm-color-table.vim"]
 	path = bundle/xterm-color-table.vim
 	url = https://github.com/guns/xterm-color-table.vim.git
-[submodule "bundle/vim-tmux"]
-	path = bundle/vim-tmux
-	url = https://github.com/qqshfox/vim-tmux.git
 [submodule "bundle/vim-fswitch"]
 	path = bundle/vim-fswitch
 	url = https://github.com/derekwyatt/vim-fswitch.git

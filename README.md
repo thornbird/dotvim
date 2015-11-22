@@ -1,4 +1,4 @@
-Hanfei Shen's dotvim files
+dotvim files
 ==========================
 
 Installation
@@ -43,10 +43,3 @@ Notice
 ------
 
 * You should check whether the current ruby matches the vim before `make install`, or vim will crash when you use Command-T.
-
-
-Screenshots
------------
-
-![screenshot_macvim](https://raw.github.com/qqshfox/dotvim/master/img/screenshot_macvim.png)
-![screenshot_vim](https://raw.github.com/qqshfox/dotvim/master/img/screenshot_vim.png)

@@ -1,6 +1,6 @@
 dotvim files
 ==========================
-This is refrence from (Hanfei Shen's dotvim)[https://github.com/qqshfox/dotvim]
+This is refrence from (Jing's dotvim)[https://github.com/thornbird/dotvim]
 
 Installation
 ------------

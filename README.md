@@ -1,6 +1,6 @@
 dotvim files
 ==========================
-This is refrence from (Hanfei Shen's dotvim)[https://github.com/qqshfox/dotvim]
+This is refrence from (Jing's dotvim)[https://github.com/thornbird/dotvim]
 
 Installation
 ------------
@@ -14,8 +14,10 @@ make install
 Dependencies
 ------------
 
-* Vim 7.3
+* YouCompleteMe requires vim is larger than 7.3.584, but mac original vim is 7.3
+* Install macvim via `brew install macvim` and the command is `mvim`
 * Ruby and Vim 7.3 with ruby support (+ruby) (optional): Command-T and Lusty need these
+* Install hg through brew `brew install hg`
 
 Updating
 --------
@@ -40,7 +42,16 @@ Some plugins need
 * Erlang for vimerl
 * R & [VimCom](https://github.com/jalvesaq/VimCom.git) for Vim-R-Plugin
 
+Configuration of alias vim
+------
+
+Put below in your shell shell rc file:
+* alias vi='mvim -v'
+* alias vim='mvim -v'
+* export EDITOR='mvim -v'
+
 Notice
 ------
 
 * You should check whether the current ruby matches the vim before `make install`, or vim will crash when you use Command-T.
+* The latest works in EI Captian Mac.

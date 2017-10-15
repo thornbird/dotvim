@@ -412,16 +412,6 @@ let g:jedi#rename_command = "<leader>rr"
 let g:jedi#related_names_command = "<leader>rn"
 "}}}
 
-" Powerline {{{
-set rtp+=~/.vim/powerline/powerline/bindings/vim
-"}}}
-
-" UltiSnips {{{
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-"}}}
-
 " YouCompleteMe {{{
 let g:ycm_key_list_select_completion = []
 let g:ycm_key_list_previous_completion = []
@@ -434,8 +424,31 @@ if has('gui_running')
 endif
 "}}}
 
+" Powerline {{{
+set rtp+=~/.vim/powerline/powerline/bindings/vim
+"}}}
+
+" UltiSnips {{{
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+"}}}
+
 " Objective-C {{{
 au! BufRead,BufNewFile *.m,*.mm setfiletype objc
 "}}}
 
+" Rubocop {{{
+let g:vimrubocop_keymap = 0
+nmap <Leader>r :RuboCop<CR>
+"}}}
+
 " vim: foldmethod=marker
+set clipboard=unnamed
+
+" Paste Setting {{{
+nmap <F1> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <F1> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <F2> :.w !pbcopy<CR><CR>
+vmap <F2> :w !pbcopy<CR><CR>
+"}}}
